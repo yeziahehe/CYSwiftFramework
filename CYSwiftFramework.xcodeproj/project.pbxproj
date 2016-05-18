@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C1F95641CECC1C6009A385D /* CYMacros.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1F95631CECC1C6009A385D /* CYMacros.swift */; };
+		2C1F95661CECC302009A385D /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 2C1F95651CECC302009A385D /* README.md */; };
+		2C1F95681CECC367009A385D /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 2C1F95671CECC367009A385D /* README.md */; };
+		2C1F956A1CECC409009A385D /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 2C1F95691CECC409009A385D /* README.md */; };
+		2C1F956C1CECC416009A385D /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 2C1F956B1CECC416009A385D /* README.md */; };
+		2C1F956E1CECC420009A385D /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 2C1F956D1CECC420009A385D /* README.md */; };
+		2C1F95701CECC428009A385D /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 2C1F956F1CECC428009A385D /* README.md */; };
+		2C1F95721CECC431009A385D /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 2C1F95711CECC431009A385D /* README.md */; };
+		2C1F95741CECC621009A385D /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 2C1F95731CECC621009A385D /* README.md */; };
+		2C1F95761CECC62B009A385D /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 2C1F95751CECC62B009A385D /* README.md */; };
 		2C37B4971CD0A7AA00692AC6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C37B4961CD0A7AA00692AC6 /* AppDelegate.swift */; };
 		2C37B4991CD0A7AA00692AC6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C37B4981CD0A7AA00692AC6 /* ViewController.swift */; };
 		2C37B49C1CD0A7AA00692AC6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C37B49A1CD0A7AA00692AC6 /* Main.storyboard */; };
@@ -35,6 +45,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2C1F95631CECC1C6009A385D /* CYMacros.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CYMacros.swift; sourceTree = "<group>"; };
+		2C1F95651CECC302009A385D /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		2C1F95671CECC367009A385D /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		2C1F95691CECC409009A385D /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		2C1F956B1CECC416009A385D /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		2C1F956D1CECC420009A385D /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		2C1F956F1CECC428009A385D /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		2C1F95711CECC431009A385D /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		2C1F95731CECC621009A385D /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		2C1F95751CECC62B009A385D /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		2C37B4931CD0A7AA00692AC6 /* CYSwiftFramework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CYSwiftFramework.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C37B4961CD0A7AA00692AC6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2C37B4981CD0A7AA00692AC6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -79,6 +99,88 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2C1F95591CECC12F009A385D /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				2C1F95631CECC1C6009A385D /* CYMacros.swift */,
+				2C1F95611CECC1A1009A385D /* Extension */,
+				2C1F95621CECC1A8009A385D /* Services */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		2C1F955A1CECC135009A385D /* Vendors */ = {
+			isa = PBXGroup;
+			children = (
+				2C1F95711CECC431009A385D /* README.md */,
+			);
+			path = Vendors;
+			sourceTree = "<group>";
+		};
+		2C1F955B1CECC13B009A385D /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				2C1F956F1CECC428009A385D /* README.md */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		2C1F955C1CECC141009A385D /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				2C1F956D1CECC420009A385D /* README.md */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		2C1F955D1CECC147009A385D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2C1F956B1CECC416009A385D /* README.md */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2C1F955E1CECC14D009A385D /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				2C1F95691CECC409009A385D /* README.md */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		2C1F955F1CECC152009A385D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2C1F95671CECC367009A385D /* README.md */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2C1F95601CECC157009A385D /* Configs */ = {
+			isa = PBXGroup;
+			children = (
+				2C1F95651CECC302009A385D /* README.md */,
+			);
+			path = Configs;
+			sourceTree = "<group>";
+		};
+		2C1F95611CECC1A1009A385D /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				2C1F95731CECC621009A385D /* README.md */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		2C1F95621CECC1A8009A385D /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				2C1F95751CECC62B009A385D /* README.md */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 		2C37B48A1CD0A7AA00692AC6 = {
 			isa = PBXGroup;
 			children = (
@@ -104,8 +206,14 @@
 		2C37B4951CD0A7AA00692AC6 /* CYSwiftFramework */ = {
 			isa = PBXGroup;
 			children = (
-				2C37B4C51CD0EC5A00692AC6 /* ViewControllers */,
-				2C37B4C41CD0EC3600692AC6 /* Views */,
+				2C1F95601CECC157009A385D /* Configs */,
+				2C1F955F1CECC152009A385D /* Model */,
+				2C1F955E1CECC14D009A385D /* ViewModel */,
+				2C1F955D1CECC147009A385D /* Controller */,
+				2C1F955C1CECC141009A385D /* Storyboards */,
+				2C1F955B1CECC13B009A385D /* Managers */,
+				2C1F955A1CECC135009A385D /* Vendors */,
+				2C1F95591CECC12F009A385D /* Utils */,
 				2C37B4961CD0A7AA00692AC6 /* AppDelegate.swift */,
 				2C37B4981CD0A7AA00692AC6 /* ViewController.swift */,
 				2C37B49A1CD0A7AA00692AC6 /* Main.storyboard */,
@@ -132,20 +240,6 @@
 				2C37B4B81CD0A7AA00692AC6 /* Info.plist */,
 			);
 			path = CYSwiftFrameworkUITests;
-			sourceTree = "<group>";
-		};
-		2C37B4C41CD0EC3600692AC6 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Views;
-			sourceTree = "<group>";
-		};
-		2C37B4C51CD0EC5A00692AC6 /* ViewControllers */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = ViewControllers;
 			sourceTree = "<group>";
 		};
 		64EDB16B7DDCDF0F5A1209E4 /* Frameworks */ = {
@@ -375,7 +469,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C1F956A1CECC409009A385D /* README.md in Sources */,
+				2C1F95641CECC1C6009A385D /* CYMacros.swift in Sources */,
+				2C1F95721CECC431009A385D /* README.md in Sources */,
 				2C37B4991CD0A7AA00692AC6 /* ViewController.swift in Sources */,
+				2C1F956C1CECC416009A385D /* README.md in Sources */,
+				2C1F95681CECC367009A385D /* README.md in Sources */,
+				2C1F95761CECC62B009A385D /* README.md in Sources */,
+				2C1F95661CECC302009A385D /* README.md in Sources */,
+				2C1F95701CECC428009A385D /* README.md in Sources */,
+				2C1F956E1CECC420009A385D /* README.md in Sources */,
+				2C1F95741CECC621009A385D /* README.md in Sources */,
 				2C37B4971CD0A7AA00692AC6 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
