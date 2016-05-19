@@ -9,6 +9,7 @@
 import UIKit
 
 extension UIImage {
+    
     class func imageWithColor(color: UIColor) -> UIImage {
         let rect = CGRectMake(0.0, 0.0, 1.0, 1.0)
         UIGraphicsBeginImageContext(rect.size)
@@ -22,4 +23,21 @@ extension UIImage {
         
         return image
     }
+    
+    /**
+     According to the name of the picture to back a picture that can stretch
+     
+     - parameter name: image name
+     */
+    class func resizedImage(name: String) -> UIImage {
+        let image = UIImage(named: name)
+        
+        if let image = image {
+            return image.stretchableImageWithLeftCapWidth(NSInteger(image.size.width * 0.5), topCapHeight: NSInteger(image.size.height * 0.5))
+        }
+        
+        return UIImage()
+        
+    }
+    
 }

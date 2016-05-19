@@ -31,6 +31,7 @@
 		A911F97F1CED7298005EB7AE /* CYConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = A911F97E1CED7298005EB7AE /* CYConfig.swift */; };
 		A911F9811CED8B51005EB7AE /* UIScrollView+CY.swift in Sources */ = {isa = PBXBuildFile; fileRef = A911F9801CED8B51005EB7AE /* UIScrollView+CY.swift */; };
 		A911F9871CEDB3CB005EB7AE /* UIColor+CY.swift in Sources */ = {isa = PBXBuildFile; fileRef = A911F9861CEDB3CB005EB7AE /* UIColor+CY.swift */; };
+		A911F98D1CEDC728005EB7AE /* UIView+CY.swift in Sources */ = {isa = PBXBuildFile; fileRef = A911F98C1CEDC728005EB7AE /* UIView+CY.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,6 +84,7 @@
 		A911F97E1CED7298005EB7AE /* CYConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CYConfig.swift; sourceTree = "<group>"; };
 		A911F9801CED8B51005EB7AE /* UIScrollView+CY.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIScrollView+CY.swift"; sourceTree = "<group>"; };
 		A911F9861CEDB3CB005EB7AE /* UIColor+CY.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+CY.swift"; sourceTree = "<group>"; };
+		A911F98C1CEDC728005EB7AE /* UIView+CY.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+CY.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -186,6 +188,7 @@
 				A911F9861CEDB3CB005EB7AE /* UIColor+CY.swift */,
 				A911F97C1CED6FB8005EB7AE /* UIImage+CY.swift */,
 				A911F9801CED8B51005EB7AE /* UIScrollView+CY.swift */,
+				A911F98C1CEDC728005EB7AE /* UIView+CY.swift */,
 				2C1F95731CECC621009A385D /* README.md */,
 			);
 			path = Extension;
@@ -504,6 +507,7 @@
 				A911F97D1CED6FB8005EB7AE /* UIImage+CY.swift in Sources */,
 				2C1F95741CECC621009A385D /* README.md in Sources */,
 				2C37B4971CD0A7AA00692AC6 /* AppDelegate.swift in Sources */,
+				A911F98D1CEDC728005EB7AE /* UIView+CY.swift in Sources */,
 				A911F9871CEDB3CB005EB7AE /* UIColor+CY.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
