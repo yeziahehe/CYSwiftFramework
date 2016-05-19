@@ -28,6 +28,9 @@
 		A911F93F1CED6AD2005EB7AE /* CYNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A911F93E1CED6AD2005EB7AE /* CYNavigationController.swift */; };
 		A911F97B1CED6C7D005EB7AE /* String+CY.swift in Sources */ = {isa = PBXBuildFile; fileRef = A911F97A1CED6C7D005EB7AE /* String+CY.swift */; };
 		A911F97D1CED6FB8005EB7AE /* UIImage+CY.swift in Sources */ = {isa = PBXBuildFile; fileRef = A911F97C1CED6FB8005EB7AE /* UIImage+CY.swift */; };
+		A911F97F1CED7298005EB7AE /* CYConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = A911F97E1CED7298005EB7AE /* CYConfig.swift */; };
+		A911F9811CED8B51005EB7AE /* UIScrollView+CY.swift in Sources */ = {isa = PBXBuildFile; fileRef = A911F9801CED8B51005EB7AE /* UIScrollView+CY.swift */; };
+		A911F9871CEDB3CB005EB7AE /* UIColor+CY.swift in Sources */ = {isa = PBXBuildFile; fileRef = A911F9861CEDB3CB005EB7AE /* UIColor+CY.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,6 +80,9 @@
 		A911F93E1CED6AD2005EB7AE /* CYNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CYNavigationController.swift; sourceTree = "<group>"; };
 		A911F97A1CED6C7D005EB7AE /* String+CY.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+CY.swift"; sourceTree = "<group>"; };
 		A911F97C1CED6FB8005EB7AE /* UIImage+CY.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+CY.swift"; sourceTree = "<group>"; };
+		A911F97E1CED7298005EB7AE /* CYConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CYConfig.swift; sourceTree = "<group>"; };
+		A911F9801CED8B51005EB7AE /* UIScrollView+CY.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIScrollView+CY.swift"; sourceTree = "<group>"; };
+		A911F9861CEDB3CB005EB7AE /* UIColor+CY.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+CY.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -167,6 +173,7 @@
 		2C1F95601CECC157009A385D /* Configs */ = {
 			isa = PBXGroup;
 			children = (
+				A911F97E1CED7298005EB7AE /* CYConfig.swift */,
 				2C1F95651CECC302009A385D /* README.md */,
 			);
 			path = Configs;
@@ -176,7 +183,9 @@
 			isa = PBXGroup;
 			children = (
 				A911F97A1CED6C7D005EB7AE /* String+CY.swift */,
+				A911F9861CEDB3CB005EB7AE /* UIColor+CY.swift */,
 				A911F97C1CED6FB8005EB7AE /* UIImage+CY.swift */,
+				A911F9801CED8B51005EB7AE /* UIScrollView+CY.swift */,
 				2C1F95731CECC621009A385D /* README.md */,
 			);
 			path = Extension;
@@ -489,10 +498,13 @@
 				A911F93F1CED6AD2005EB7AE /* CYNavigationController.swift in Sources */,
 				2C1F95661CECC302009A385D /* README.md in Sources */,
 				2C1F95701CECC428009A385D /* README.md in Sources */,
+				A911F9811CED8B51005EB7AE /* UIScrollView+CY.swift in Sources */,
+				A911F97F1CED7298005EB7AE /* CYConfig.swift in Sources */,
 				2C1F956E1CECC420009A385D /* README.md in Sources */,
 				A911F97D1CED6FB8005EB7AE /* UIImage+CY.swift in Sources */,
 				2C1F95741CECC621009A385D /* README.md in Sources */,
 				2C37B4971CD0A7AA00692AC6 /* AppDelegate.swift in Sources */,
+				A911F9871CEDB3CB005EB7AE /* UIColor+CY.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
