@@ -27,6 +27,7 @@
 		A0CE2E70B4D3789B3908766C /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E0A1249B112B7157844196B /* Pods.framework */; };
 		A911F93F1CED6AD2005EB7AE /* CYNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A911F93E1CED6AD2005EB7AE /* CYNavigationController.swift */; };
 		A911F97B1CED6C7D005EB7AE /* String+CY.swift in Sources */ = {isa = PBXBuildFile; fileRef = A911F97A1CED6C7D005EB7AE /* String+CY.swift */; };
+		A911F97D1CED6FB8005EB7AE /* UIImage+CY.swift in Sources */ = {isa = PBXBuildFile; fileRef = A911F97C1CED6FB8005EB7AE /* UIImage+CY.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,6 +76,7 @@
 		6E0A1249B112B7157844196B /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A911F93E1CED6AD2005EB7AE /* CYNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CYNavigationController.swift; sourceTree = "<group>"; };
 		A911F97A1CED6C7D005EB7AE /* String+CY.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+CY.swift"; sourceTree = "<group>"; };
+		A911F97C1CED6FB8005EB7AE /* UIImage+CY.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+CY.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -174,6 +176,7 @@
 			isa = PBXGroup;
 			children = (
 				A911F97A1CED6C7D005EB7AE /* String+CY.swift */,
+				A911F97C1CED6FB8005EB7AE /* UIImage+CY.swift */,
 				2C1F95731CECC621009A385D /* README.md */,
 			);
 			path = Extension;
@@ -487,6 +490,7 @@
 				2C1F95661CECC302009A385D /* README.md in Sources */,
 				2C1F95701CECC428009A385D /* README.md in Sources */,
 				2C1F956E1CECC420009A385D /* README.md in Sources */,
+				A911F97D1CED6FB8005EB7AE /* UIImage+CY.swift in Sources */,
 				2C1F95741CECC621009A385D /* README.md in Sources */,
 				2C37B4971CD0A7AA00692AC6 /* AppDelegate.swift in Sources */,
 			);

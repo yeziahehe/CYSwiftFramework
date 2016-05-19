@@ -9,7 +9,13 @@
 import UIKit
 
 extension String{
+    
     func contains(find: String) -> Bool{
         return self.rangeOfString(find) != nil
     }
+    
+    func stringByAppendingPathComponent(path: String) -> String {
+        return (self as NSString).stringByAppendingPathComponent(path)
+    }
+    
 }
