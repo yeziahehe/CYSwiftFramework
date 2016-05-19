@@ -25,6 +25,8 @@
 		2C37B4AC1CD0A7AA00692AC6 /* CYSwiftFrameworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C37B4AB1CD0A7AA00692AC6 /* CYSwiftFrameworkTests.swift */; };
 		2C37B4B71CD0A7AA00692AC6 /* CYSwiftFrameworkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C37B4B61CD0A7AA00692AC6 /* CYSwiftFrameworkUITests.swift */; };
 		A0CE2E70B4D3789B3908766C /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E0A1249B112B7157844196B /* Pods.framework */; };
+		A911F93F1CED6AD2005EB7AE /* CYNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A911F93E1CED6AD2005EB7AE /* CYNavigationController.swift */; };
+		A911F97B1CED6C7D005EB7AE /* String+CY.swift in Sources */ = {isa = PBXBuildFile; fileRef = A911F97A1CED6C7D005EB7AE /* String+CY.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +73,8 @@
 		33F7EA26DD7B89EAD9978FCB /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		574541421574BDE5286299D1 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		6E0A1249B112B7157844196B /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A911F93E1CED6AD2005EB7AE /* CYNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CYNavigationController.swift; sourceTree = "<group>"; };
+		A911F97A1CED6C7D005EB7AE /* String+CY.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+CY.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +140,7 @@
 		2C1F955D1CECC147009A385D /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				A911F93E1CED6AD2005EB7AE /* CYNavigationController.swift */,
 				2C1F956B1CECC416009A385D /* README.md */,
 			);
 			path = Controller;
@@ -168,6 +173,7 @@
 		2C1F95611CECC1A1009A385D /* Extension */ = {
 			isa = PBXGroup;
 			children = (
+				A911F97A1CED6C7D005EB7AE /* String+CY.swift */,
 				2C1F95731CECC621009A385D /* README.md */,
 			);
 			path = Extension;
@@ -469,6 +475,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A911F97B1CED6C7D005EB7AE /* String+CY.swift in Sources */,
 				2C1F956A1CECC409009A385D /* README.md in Sources */,
 				2C1F95641CECC1C6009A385D /* CYMacros.swift in Sources */,
 				2C1F95721CECC431009A385D /* README.md in Sources */,
@@ -476,6 +483,7 @@
 				2C1F956C1CECC416009A385D /* README.md in Sources */,
 				2C1F95681CECC367009A385D /* README.md in Sources */,
 				2C1F95761CECC62B009A385D /* README.md in Sources */,
+				A911F93F1CED6AD2005EB7AE /* CYNavigationController.swift in Sources */,
 				2C1F95661CECC302009A385D /* README.md in Sources */,
 				2C1F95701CECC428009A385D /* README.md in Sources */,
 				2C1F956E1CECC420009A385D /* README.md in Sources */,
