@@ -6,6 +6,8 @@
 //  Copyright © 2016年 Suzhou Coryphaei Information&Technology Co., Ltd. All rights reserved.
 //
 
+// Commonly used method
+
 import UIKit
 
 typealias CancelableTask = (cancel: Bool) -> Void
@@ -39,5 +41,30 @@ func cancel(cancelableTask: CancelableTask?) {
 }
 
 class CYMacros: NSObject {
-
+    
+    // load local json file to NSDictionary
+    class func dictionaryWithJsonFileName(name: String) -> NSDictionary {
+        let path = NSBundle.mainBundle().pathForResource(name, ofType: "json")
+        
+        if let path = path {
+            let nsUrl = NSURL(fileURLWithPath: path)
+            
+            let data: NSData? = NSData(contentsOfURL: nsUrl)
+            
+            if let data = data {
+                if let metaData = try? NSJSONSerialization.JSONObjectWithData(data, options: []) {
+                    return metaData as! NSDictionary
+                }
+            }
+        }
+        
+        return NSDictionary()
+    }
+    
+    // load Storyboard - ViewController
+    class func viewControllerWithStoryboardName(name: String, identifier: String) -> UIViewController {
+        let vc = UIStoryboard(name: name, bundle: NSBundle.mainBundle()).instantiateViewControllerWithIdentifier(identifier)
+        return vc
+    }
+    
 }
