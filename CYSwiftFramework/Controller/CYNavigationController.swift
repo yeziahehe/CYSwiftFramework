@@ -8,7 +8,7 @@
 
 import UIKit
 
-final class CYNavigationController: UINavigationController, UIGestureRecognizerDelegate, UINavigationControllerDelegate {
+class CYNavigationController: UINavigationController, UIGestureRecognizerDelegate, UINavigationControllerDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -18,13 +18,13 @@ final class CYNavigationController: UINavigationController, UIGestureRecognizerD
         delegate = self
     }
     
-    override init(rootViewController: UIViewController) {
-        super.init(rootViewController: rootViewController)
-    }
-    
-    required init?(coder aDecoder: NSCoder) {
-        super.init(coder: aDecoder)
-    }
+    //    override init(rootViewController: UIViewController) {
+    //        super.init(rootViewController: rootViewController)
+    //    }
+    //
+    //    required init?(coder aDecoder: NSCoder) {
+    //        super.init(coder: aDecoder)
+    //    }
     
     override func pushViewController(viewController: UIViewController, animated: Bool) {
         if animated {

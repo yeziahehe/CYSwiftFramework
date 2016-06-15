@@ -32,6 +32,7 @@
 		A911F9811CED8B51005EB7AE /* UIScrollView+CY.swift in Sources */ = {isa = PBXBuildFile; fileRef = A911F9801CED8B51005EB7AE /* UIScrollView+CY.swift */; };
 		A911F9871CEDB3CB005EB7AE /* UIColor+CY.swift in Sources */ = {isa = PBXBuildFile; fileRef = A911F9861CEDB3CB005EB7AE /* UIColor+CY.swift */; };
 		A911F98D1CEDC728005EB7AE /* UIView+CY.swift in Sources */ = {isa = PBXBuildFile; fileRef = A911F98C1CEDC728005EB7AE /* UIView+CY.swift */; };
+		A931AD0E1D1147A900E179DB /* DataType+CY.swift in Sources */ = {isa = PBXBuildFile; fileRef = A931AD0D1D1147A900E179DB /* DataType+CY.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -85,6 +86,7 @@
 		A911F9801CED8B51005EB7AE /* UIScrollView+CY.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIScrollView+CY.swift"; sourceTree = "<group>"; };
 		A911F9861CEDB3CB005EB7AE /* UIColor+CY.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+CY.swift"; sourceTree = "<group>"; };
 		A911F98C1CEDC728005EB7AE /* UIView+CY.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+CY.swift"; sourceTree = "<group>"; };
+		A931AD0D1D1147A900E179DB /* DataType+CY.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DataType+CY.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -184,6 +186,7 @@
 		2C1F95611CECC1A1009A385D /* Extension */ = {
 			isa = PBXGroup;
 			children = (
+				A931AD0D1D1147A900E179DB /* DataType+CY.swift */,
 				A911F97A1CED6C7D005EB7AE /* String+CY.swift */,
 				A911F9861CEDB3CB005EB7AE /* UIColor+CY.swift */,
 				A911F97C1CED6FB8005EB7AE /* UIImage+CY.swift */,
@@ -509,6 +512,7 @@
 				2C37B4971CD0A7AA00692AC6 /* AppDelegate.swift in Sources */,
 				A911F98D1CEDC728005EB7AE /* UIView+CY.swift in Sources */,
 				A911F9871CEDB3CB005EB7AE /* UIColor+CY.swift in Sources */,
+				A931AD0E1D1147A900E179DB /* DataType+CY.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
